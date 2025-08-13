@@ -1,3 +1,9 @@
+# Gobo's Subscrible Board
+To install get https://github.com/wryser/Gorilla-Homes and put the home file in the homes folder.
+Also if you want your name on the board dm me on discord (gobo.vr) or go into unity and do it yourself.
+And this is PCVR (PC Gorilla Tag) only. Sorry quest users and PSVR2 did you think you had a chance?
+Below is the orignal readme
+
 # Gorilla Homes Mod Project
 Unity project version 2022.3.2f1
 
