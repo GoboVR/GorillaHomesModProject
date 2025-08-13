@@ -475,7 +475,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 146876762}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.302, y: 1.377, z: -1.315}
+  m_LocalPosition: {x: 4.307, y: 1.377, z: -1.315}
   m_LocalScale: {x: 0.04823795, y: 0.26386628, z: 0.28761733}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -839,8 +839,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -950,7 +950,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2746
+  m_Name: pb_Mesh26044
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -1115,7 +1115,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-4500
+  m_Name: pb_Mesh25998
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -1741,7 +1741,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-5422
+  m_Name: pb_Mesh26010
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -2026,7 +2026,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'To:  Sample'
+  m_text: 'To: '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b7d201b245d9d074080650d7420a54f3, type: 2}
   m_sharedMaterial: {fileID: -3428254677310873149, guid: b7d201b245d9d074080650d7420a54f3,
@@ -2036,8 +2036,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4283367168
+  m_fontColor: {r: 0, g: 1, b: 0.30689335, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2054,7 +2054,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50.6
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2224,7 +2224,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 06cdf560bcff65e46acaf99237c3f12b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.436
+      value: 4.437
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06cdf560bcff65e46acaf99237c3f12b,
         type: 3}
@@ -2234,7 +2234,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 06cdf560bcff65e46acaf99237c3f12b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.183
+      value: -1.169
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 06cdf560bcff65e46acaf99237c3f12b,
         type: 3}
@@ -2279,7 +2279,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 06cdf560bcff65e46acaf99237c3f12b,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1878778401}
   m_SourcePrefab: {fileID: 100100000, guid: 06cdf560bcff65e46acaf99237c3f12b, type: 3}
 --- !u!4 &1878778399 stripped
 Transform:
@@ -2287,6 +2291,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1878778398}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1878778400 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 06cdf560bcff65e46acaf99237c3f12b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1878778398}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1878778401
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878778400}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4520279233096122060, guid: 06cdf560bcff65e46acaf99237c3f12b, type: 3}
 --- !u!1 &1958797107
 GameObject:
   m_ObjectHideFlags: 0
